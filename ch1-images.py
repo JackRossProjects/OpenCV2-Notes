@@ -12,5 +12,5 @@ image = cv2.imread("/home/jack/Desktop/jrp.png")
 cv2.imshow("Output", image)
 # cv2.waitKey adds a timer as to how long we want the image to appear
 # Setting cv2.waitKey to 0 makes the image appear indefinitely
-# Setting cv2.waitKey to 1 would be 1ms and 1000 would be 1s
+# Setting cv2.waitKey to 1 would be 1ms and 1000 would be 1 second
 cv2.waitKey(0)
