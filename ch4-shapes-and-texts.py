@@ -9,7 +9,7 @@ img = np.zeros((512,512,3), np.uint8)
 # img[:] = 255, 0, 0
 
 # Adding a line
-# cv2.line(image, start point, end point, color, thickness)
+# cv2.line(image, startpoint, end point, color, thickness)
 cv2.line(img,(0,0), (300,300), (0, 255, 0), 3)
 
 # Drawing a rectangle (same convention as above)
