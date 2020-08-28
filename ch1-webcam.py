@@ -21,6 +21,6 @@ while True:
     # Show the result from above
     cv2.imshow("Video", img)
     # Displays 1 frame from webcam every 1ms
-    # and will close the video output if the key q is pressed
+    # and will close the video output if the key 'q' is pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
